@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.inner1,
+.inner2 {
+    text-align: center;
+    color: white;
+}
+
+.outer {
+    height: 200vh;
+    width: 90vw;
+    margin: auto;
+    background-color: rgb(169, 225, 48);
+    border: 2px solid red;
+}
+
+.inner1 {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(48, 225, 66);
+    border: 2px solid black;
+}
+
+.inner2 {
+    position: relative;
+    float: right;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(48, 77, 225);
+    border: 2px solid rgb(28, 41, 174);
+}
+
+.inner3 {
+    position: relative;
+    top: 500px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(48, 225, 66);
+    border: 2px solid black;
+}
+
+.inner4 {
+    position: absolute;
+    top: 500px;
+    float: right; /*floating will not apply because position is absolute*/
+    height: 50px;
+    width: 50px;
+    background-color: rgb(48, 77, 225);
+    border: 2px solid rgb(28, 41, 174);
+}
